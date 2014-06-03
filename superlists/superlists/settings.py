@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '912h0_$)xki4q(vyf52s0yb#a8-nyvnit93ki^zn)xgj*2he-s'
+SECRET_KEY = '7p(^gymutda%rknt^c(ania4!*dz5b(vd0=)=936u25d+&l7e&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -58,7 +58,7 @@ WSGI_APPLICATION = 'superlists.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'superlists'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
