@@ -1,6 +1,8 @@
 from django.test import TestCase
 import os
-os.environ['DJANGO_SETTINGS_MODULE'] = 'lists.settings'
+from django.conf import settings
+#os.environ['DJANGO_SETTINGS_MODULE'] = 'superlists.settings'
+settings.configure()
 
 class SmokeTest(TestCase):
     
